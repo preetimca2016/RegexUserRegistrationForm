@@ -11,7 +11,8 @@
             string MobileNumber = "91 1234567890";
             string PasswordR1 = "123asdAeW";//invalid password bcz we given here numeric value and According to syntax required only characters
             string PasswordR2 = "Password";
-            string PasswordR3 = "Password123";
+            //string PasswordR3 = "Password123";
+            string PasswordR3 = "Password@123";
 
             userRegexTest.ValidateFirstName(FirstName);
             userRegexTest.ValidateLastName(LastName);
