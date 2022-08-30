@@ -8,11 +8,12 @@
             string FirstName = "Preeti";
             string LastName = "Sharma";
             string UserEmail = "preetimca2016@gmail.com";
+            string MobileNumber = "91 1234567890";
 
             userRegexTest.ValidateFirstName(FirstName);
             userRegexTest.ValidateLastName(LastName);
             userRegexTest.ValidateUserEmail(UserEmail);
-
+            userRegexTest.ValidateMobileNumber(MobileNumber);
         }   
     }
 }
