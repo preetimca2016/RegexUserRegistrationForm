@@ -14,9 +14,8 @@ namespace RegexRegistrationForm
         public Regex LastNameRegex = new Regex(@"^[A-Z][a-zA-Z]{2,}$");
         public Regex UserEmailRegex = new Regex(@"^[A-Z a-z 0-9]+([.-_+][A-Z a-z 0-9]+)*@[A-Z a-z 0-9]+.[A-Z a-z]{2,4}([.][A-Z a-z]{2,})?$");
         public Regex MobileNumberRegex = new Regex(@"^[0-9]{2}\s[0-9]{10}$");
-        public Regex PasswordRule1Regex = new Regex(@"^[A-za-z]{8}$");  //Rule1 minimum 8 Characters 
-        //public Regex PasswordRule2Regex = new Regex(@"^[A-za-z][A-Z]{1}");  //Rule2– Should have at least 1 Upper Case 
-
+        public Regex PasswordRule1Regex = new Regex(@"^[A-za-z]{8,}$");  //Rule1 minimum 8 Characters 
+        
         public void ValidateFirstName(string FirstName) 
         {
             Console.WriteLine("\nfirst name: "+FirstName);
