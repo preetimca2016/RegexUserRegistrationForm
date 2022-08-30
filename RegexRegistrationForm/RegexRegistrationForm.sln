@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexRegistrationForm", "RegexRegistrationForm.csproj", "{ABF51D8D-A32D-46ED-9FE9-6FD338AEBCBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABF51D8D-A32D-46ED-9FE9-6FD338AEBCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF51D8D-A32D-46ED-9FE9-6FD338AEBCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF51D8D-A32D-46ED-9FE9-6FD338AEBCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF51D8D-A32D-46ED-9FE9-6FD338AEBCBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91CCCA4B-87D4-4A97-BAC3-1EBE689BD211}
+	EndGlobalSection
+EndGlobal
